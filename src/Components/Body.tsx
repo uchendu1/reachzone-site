@@ -5,7 +5,7 @@ const Body = () => {
 
         <>
             <div className="container">
-                <div className="row justify-content-start">
+                <div className="row justify-content-start mt-5 first-img ">
                     <div className="col-4 p-2">
                         <img className="img1" src="./images/rz logo.png" alt="#" /><br></br>
                         <img className="img2 ml-2" src="./images/puttingAfrica.png" alt="#" />
@@ -32,12 +32,14 @@ const Body = () => {
                     </div>
                     </div>
 
-                 <div className="row justify-content-center ">
+                 {/* <div className="row justify-content-center">
                     <div className="col-8 text-center">
-                        <img className="RectangleBig " src="./images/RectangleBig.png" alt="#"/>
+                        <img className="csb text-center" src="./images/csg.png" alt="#" />
+                        <img className="RectangleBig text-center" src="./images/RectangleBig.png" alt="#"/>
+                           
                     </div>
 
-                </div> 
+                </div>  */}
 
                
                 {/* <div className="row justify-content-center">
