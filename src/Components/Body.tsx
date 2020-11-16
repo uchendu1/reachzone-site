@@ -30,29 +30,71 @@ const Body = () => {
                             that are simple, beautiful and helps businesses grow.
                         </p>
                     </div>
-                    </div>
+                </div>
 
-                 <div className="row justify-content-center">
+
+
+                <div className="row justify-content-center">
                     <div className="col-12 text-center">
                         <img className="csb text-center" src="./images/csg.png" alt="#" />
-                        <img className="RectangleBig text-center" src="./images/RectangleBig.png" alt="#"/>
-                           
-                    </div>
-
-                </div> 
-
-               
-                {/* <div className="row justify-content-center">
-                    <div className="col-5">
-                    <img className="RectangleSmall" src="./images/RectangleSmall.png" alt="#"/>
-
-                    </div>
-                    <div className="col-5">
-                    <img className="RectangleSmall" src="./images/RectangleSmall.png" alt="#"/>
+                        <img className="RectangleBig text-center" src="./images/RectangleBig.png" alt="#" />
 
                     </div>
 
-                </div> */}
+                </div>
+                <div className="row justify-content-start ml-2">
+                    <div className="col">
+                        <p className="remote">
+                            RemoteAfrica
+                        </p>
+                        <p className="branding">
+                            Branding, Web design
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div className="row justify-content-between mb-2 ">
+                    <div className="col-12 col-md-5 mb-2">
+                        <img className=" csb1  text-center" src="./images/csg.png" alt="#" />
+                        <img className="RectangleSmall" src="./images/RectangleSmall.png" alt="#" />
+
+                        <div className="row justify-content-start mt-3">
+                            <div className="col">
+                                <p className="remote">
+                                    Wanted
+                                </p>
+                                <p className="branding">
+                                    Web design
+                        </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <div className="col-12 col-md-5 mb-3">
+                        <img className="csb1  text-center" src="./images/csg.png" alt="#" />
+
+                        <img className="RectangleSmall" src="./images/RectangleSmall.png" alt="#" />
+
+                        <div className="row justify-content-start mt-3">
+                            <div className="col">
+                                <p className="remote">
+                                    Sell it
+                        </p>
+                                <p className="branding">
+                                    Branding, App
+                         </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
         </>

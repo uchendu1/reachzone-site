@@ -30,8 +30,8 @@
 }
 
 .RectangleBig {
-    width: 1070px !important; 
-    height: 656px !important; 
+    width: 1070px !important;
+    height: 656px !important;
     margin-top: 140px;
     margin-bottom: 20px;
 
@@ -45,7 +45,8 @@
 
 .foot {
     background-color: black;
-    
+    margin-top: 160px !important;
+
 }
 
 .say-hello {
@@ -91,8 +92,43 @@ hr {
     position: relative;
     top: 50%;
     bottom: 50%;
+    transform: translateY(60%);
+
 
 }
+
+.csb1 {
+    width: 227px;
+    height: 68px;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translateX(50%);
+}
+
+.remote {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+
+}
+
+.branding {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -115,14 +151,16 @@ hr {
 
 
     }
-    .rz2{
+
+    .rz2 {
         font-size: 14px;
-        line-height: 26px; 
+        line-height: 26px;
         margin-left: -19px;
         margin-top: 20px !important;
 
     }
-    .first-img{
+
+    .first-img {
         margin-left: 18px;
     }
 
@@ -145,13 +183,45 @@ hr {
         font-size: 44px;
         line-height: 55.22px;
     }
-    .csb{
+
+    .csb {
         height: 37.93px;
         width: 126.6px;
-}
-.RectangleBig{
-    height: 385px !important;
-    width: 319px !important;
-}
+
+
+    }
+
+    .csb1 {
+        transform: translateX(70%);
+        height: 37.93px;
+        width: 126.6px;
+
+    }
+
+    .RectangleBig {
+        height: 385px !important;
+        width: 319px !important;
+        margin-top: 70px;
+
+
+    }
+
+    .RectangleSmall {
+        height: 385px;
+        width: 319px;
+    }
+
+    .remote {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .branding {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .foot{
+        margin-top: 60px!important;
+    }
 
 }
