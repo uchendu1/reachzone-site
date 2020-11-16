@@ -103,6 +103,7 @@ hr {
     position: relative;
     top: 50%;
     bottom: 50%;
+    
     transform: translateX(50%);
 }
 
