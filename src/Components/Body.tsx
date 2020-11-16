@@ -32,14 +32,14 @@ const Body = () => {
                     </div>
                     </div>
 
-                 {/* <div className="row justify-content-center">
-                    <div className="col-8 text-center">
+                 <div className="row justify-content-center">
+                    <div className="col-12 text-center">
                         <img className="csb text-center" src="./images/csg.png" alt="#" />
                         <img className="RectangleBig text-center" src="./images/RectangleBig.png" alt="#"/>
                            
                     </div>
 
-                </div>  */}
+                </div> 
 
                
                 {/* <div className="row justify-content-center">

@@ -30,10 +30,11 @@
 }
 
 .RectangleBig {
-    width: 900px;
-    height: 300px;
-    margin-top: 120px;
+    width: 1070px !important; 
+    height: 656px !important; 
+    margin-top: 140px;
     margin-bottom: 20px;
+
 }
 
 .RectangleSmall {
@@ -89,9 +90,7 @@ hr {
     height: 68px;
     position: relative;
     top: 50%;
-    /* bottom: 0; */
-    /* left: 0; */
-    /* right: 0; */
+    bottom: 50%;
 
 }
 
@@ -144,8 +143,15 @@ hr {
 
     .say-hello {
         font-size: 44px;
-        line-height: 55px;
+        line-height: 55.22px;
     }
-    
+    .csb{
+        height: 37.93px;
+        width: 126.6px;
+}
+.RectangleBig{
+    height: 385px !important;
+    width: 319px !important;
+}
 
 }

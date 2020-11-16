@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container-fluid foot">
                     <div className="con1">
                         <div className=" row d- flex justify-content-center">
-                    <div className="col-6 text-white">
+                    <div className="col-md- 6 text-white">
 
                         <p className="say-hello text-center mt-5">
                             Say Hello
@@ -22,9 +22,7 @@ const Footer = () => {
                             info@reachzone.org
                             <hr />
                         </p>
-
-
-                    </div>
+                        </div>
                 </div>
 
                 <div className="row justify-content-center">
