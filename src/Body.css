@@ -111,7 +111,7 @@ hr {
     font-family: Mulish;
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 40px;
 
 }
@@ -122,14 +122,48 @@ hr {
     font-weight: 300;
     font-size: 14px;
     line-height: 18px;
+    margin-top: -10px !important;
 }
 
+.blackk{
+    background-color: black !important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 0 !important;
+    height: 75vh !important;
+}
+.blackkk{
+    background-color: black !important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 0 !important;
+    height: 100vh !important;
+    /* width: 800px !important; */
+}
+.black1{
+    padding: 0 0 !important;
 
-
-
-
-
-
+}
+.parent-row{
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.btn1{
+    padding: 10px 40px !important;
+    border-radius: 0;
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 28px;
+}
+.row1{
+    margin-top: 150px !important;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -223,6 +257,21 @@ hr {
     }
     .foot{
         margin-top: 60px!important;
+    }
+    .start{
+        margin-left: 18px!important;
+    }
+    .parent-row{
+        padding: 10px 20px !important;
+    }
+    .blackk {
+        height: 50vh !important;
+        margin-bottom: 30px !important;
+
+    }
+    .blackkk{
+        height: 50vh !important;
+        margin-bottom: 30px !important 
     }
 
 }
